@@ -28,13 +28,13 @@ https://colab.research.google.com/
 3. By clicking + Code, you can add a new code cell
 4. To execute a code cell, click the play button on the left of the cell
 
-
 Please check following video for more details:
 https://www.youtube.com/watch?v=RLYoEyIHL6A
 
 ## 2. Local Development Environment
 
-### Disclaimer:
+### Disclaimer and Warning
+
 **We not reponsible for any issues caused by installing software on your computer. Installing libraries may cause issues with your existing libraries and broken your existing environment. Please use your own judgement.**
 
 In any case, for example if you want to use your own laptop for the session, you can use your local development environment. In this case, you need to install following software.
