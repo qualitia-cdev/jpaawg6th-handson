@@ -42,11 +42,6 @@ In any case, for example if you want to use your own laptop for the session, you
 - Python 3.10
 - Jupyter Notebook
 
-Then you can install following libraries using pip.
-
-```bash
-!pip install pandas scikit-learn numpy matplotlib seaborn nltk wordcloud xgboost lightgbm
-```
 
 ### 2.1 Windows
 
@@ -69,7 +64,15 @@ Easiest way to use Anaconda. Anaconda is a free and open-source distribution of 
 ![Anaconda Navigator](images/anaconda-navi.png)
 
 
+Then you can install following libraries using pip.
+
+```bash
+!pip install pandas scikit-learn numpy matplotlib seaborn nltk wordcloud xgboost lightgbm
+```
+
 There are many ways to install Python and Jupyter Notebook. You can use Anaconda, or you can use Docker. Please refer internet for more details.
+
+
 
 ---
 
