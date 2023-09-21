@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=RLYoEyIHL6A
 ## 2. Local Development Environment
 
 ### Disclaimer:
-**We not reponsible for any issues caused by installing software on your computer. Please use your own judgement.**
+**We not reponsible for any issues caused by installing software on your computer. Installing libraries may cause issues with your existing libraries and broken your existing environment. Please use your own judgement.**
 
 In any case, for example if you want to use your own laptop for the session, you can use your local development environment. In this case, you need to install following software.
 
