@@ -42,10 +42,11 @@ In any case, for example if you want to use your own laptop for the session, you
 - Python 3.10
 - Jupyter Notebook
 
-
-### 2.1 Windows
+### 2.1 Anaconda
 
 Easiest way to use Anaconda. Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. Package versions are managed by the package management system conda.
+
+#### 2.1.1 Windows
 
 1) Go to [Download Anaconda](https://www.anaconda.com/download#downloads) and download the installer for windows.
 2) Follow the instructions to install Anaconda [Installation guide windpws](https://docs.anaconda.com/free/anaconda/install/windows/)
@@ -53,7 +54,7 @@ Easiest way to use Anaconda. Anaconda is a free and open-source distribution of 
 4) Ignore the prompt to log in.
 5) Choose Jupyter Notebook from the list and press Launch. This will open a new tab in your default browser.
 
-### 2.2 Mac
+#### 2.1.2 Mac
 
 1) Go to [Download Anaconda](https://www.anaconda.com/download#downloads) and download the installer for Mac.
 2) Follow the instructions to install Anaconda [Installation guide mac](https://docs.anaconda.com/free/anaconda/install/mac-os/)
@@ -63,8 +64,18 @@ Easiest way to use Anaconda. Anaconda is a free and open-source distribution of 
 
 ![Anaconda Navigator](images/anaconda-navi.png)
 
+Please refer following video for more details:
+https://www.youtube.com/watch?v=WUeBzT43JyY
 
-Then you can install following libraries using pip.
+### 2.2 VS Code
+
+If you are using VS Code, you can install Python extension and Jupyter extension. Then you can open a notebook file (.ipynb) and start using it.
+
+Please refer following video for more details:
+https://www.youtube.com/watch?v=jNk-ZmeIz6c
+
+### Libraries
+Install following libraries using pip in the notebook cell. "!" is used to run shell commands in the notebook cell.
 
 ```bash
 !pip install pandas scikit-learn numpy matplotlib seaborn nltk wordcloud xgboost lightgbm
