@@ -66,7 +66,7 @@ Easiest way to use Anaconda. Anaconda is a free and open-source distribution of 
 4) Ignore the prompt to log in.
 5) Choose Jupyter Notebook from the list and press Launch. This will open a new tab in your default browser.
 
-![Anaconda Navigator](https://docs.anaconda.com/_images/nav-defaults.png)
+![Anaconda Navigator](images/anconda-navi.png)
 
 
 There are many ways to install Python and Jupyter Notebook. You can use Anaconda, or you can use Docker. Please refer internet for more details.
