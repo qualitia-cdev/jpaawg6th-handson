@@ -76,4 +76,4 @@ There are many ways to install Python and Jupyter Notebook. You can use Anaconda
 **Note:**
 This document is updated time to time. Please check the last updated date to see if there are any updates.
 
-Last Updated: 2023/09/21
+Last Updated: 2023/09/21 - 10:30 AM
