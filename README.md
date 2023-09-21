@@ -52,16 +52,16 @@ Then you can install following libraries using pip.
 
 Easiest way to use Anaconda. Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. Package versions are managed by the package management system conda.
 
-1) Go to ![Download Anaconda](https://www.anaconda.com/download#downloads) and download the installer for windows.
-2) Follow the instructions to install Anaconda ![Installation Guide](https://docs.anaconda.com/free/anaconda/install/windows/)
+1) Go to [Download Anaconda](https://www.anaconda.com/download#downloads) and download the installer for windows.
+2) Follow the instructions to install Anaconda [Installation guide windpws](https://docs.anaconda.com/free/anaconda/install/windows/)
 3) After installation, The app should start. If it doesn't search for it from your Start Menu to launch.
 4) Ignore the prompt to log in.
 5) Choose Jupyter Notebook from the list and press Launch. This will open a new tab in your default browser.
 
 ### 2.2 Mac
 
-1) Go to ![Download Anaconda](https://www.anaconda.com/download#downloads) and download the installer for Mac.
-2) Follow the instructions to install Anaconda ![Installation Guide](https://docs.anaconda.com/free/anaconda/install/mac-os/)
+1) Go to [Download Anaconda](https://www.anaconda.com/download#downloads) and download the installer for Mac.
+2) Follow the instructions to install Anaconda [Installation guide mac](https://docs.anaconda.com/free/anaconda/install/mac-os/)
 3) After installation, The app should start. If it doesn't search for it from your Start Menu to launch.
 4) Ignore the prompt to log in.
 5) Choose Jupyter Notebook from the list and press Launch. This will open a new tab in your default browser.
