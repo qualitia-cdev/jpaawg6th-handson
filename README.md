@@ -1,6 +1,6 @@
 # Preparing Dev Environment for AI session
 
-## 1. Google Colab
+## 1. Google Colab (Mandatory) (Recommended)
 
 ### 1.1 Introduction
 
@@ -27,17 +27,28 @@ https://colab.research.google.com/
 2. Click, File -> Open Notebook
 3. By clicking + Code, you can add a new code cell
 4. To execute a code cell, click the play button on the left of the cell
+   - Try to execute following code cell. 
+   - You can copy and paste the following code to the cell.
+
+```python
+print("Hello JPAAWG")
+```
 
 Please check following video for more details:
 https://www.youtube.com/watch?v=RLYoEyIHL6A
 
-## 2. Local Development Environment
+
+***Google colab is mandatory for the Subject generation session. You cannot use your local environment for the subject generation session due to various reason.***
+
+
+
+## 2. Local Development Environment (Optional Method) [Not Recommended]
 
 ### Disclaimer and Warning
 
-**We not reponsible for any issues caused by installing software on your computer. Installing libraries may cause issues with your existing libraries and broken your existing environment. Please use your own judgement.**
+**We not responsible for any issues caused by installing software on your computer. Installing libraries may cause issues with your existing libraries and broken your existing environment. Please use your own judgement.**
 
-In any case, for example if you want to use your own laptop for the session, you can use your local development environment. In this case, you need to install following software.
+In any case, for example if you want to use your dev environment for the session, you can use your local development environment. In this case, you need to install following software.
 
 - Python 3.10
 - Jupyter Notebook
@@ -49,7 +60,7 @@ Easiest way to use Anaconda. Anaconda is a free and open-source distribution of 
 #### 2.1.1 Windows
 
 1) Go to [Download Anaconda](https://www.anaconda.com/download#downloads) and download the installer for windows.
-2) Follow the instructions to install Anaconda [Installation guide windpws](https://docs.anaconda.com/free/anaconda/install/windows/)
+2) Follow the instructions to install Anaconda [Installation guide windows](https://docs.anaconda.com/free/anaconda/install/windows/)
 3) After installation, The app should start. If it doesn't search for it from your Start Menu to launch.
 4) Ignore the prompt to log in.
 5) Choose Jupyter Notebook from the list and press Launch. This will open a new tab in your default browser.
@@ -90,4 +101,4 @@ There are many ways to install Python and Jupyter Notebook. You can use Anaconda
 **Note:**
 This document is updated time to time. Please check the last updated date to see if there are any updates.
 
-Last Updated: 2023/09/21 - 10:45 AM
+Last Updated: 2023/10/05 - 16:21 AM
