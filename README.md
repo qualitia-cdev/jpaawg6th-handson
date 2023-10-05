@@ -24,7 +24,7 @@ Here are some of the benefits of using Google Colab:
 1. Please visit:
 https://colab.research.google.com/
 
-2. Click, File -> Open Notebook
+2. Click, File -> New notebook
 3. By clicking + Code, you can add a new code cell
 4. To execute a code cell, click the play button on the left of the cell
    - Try to execute following code cell. 
