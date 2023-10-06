@@ -1,3 +1,38 @@
+# JPAAWG 6th General Meeting ゼロから始めるAIハンズオン -「スパムフィルタ」と「メールの件名自動生成」
+
+## 事前準備
+
+本トレーニングセッションでは参加者に皆さんのパソコンからクラウドに接続して、実際に「スパムフィルタ」と「メールの件名自動生成」を作成します。
+Google Colabの環境を使用しますので、事前に接続の確認を行っておいてください。
+
+5～10分程度で確認可能です。
+
+## Google Colabの準備
+
+1. 次のURLにアクセスします。
+https://colab.research.google.com/
+2. ポップアップが表示された場合は閉じてください。
+3. 「File」 -> 「New notebook」の順にクリックしてください。
+
+入力欄にコードを入力し、再生ボタンのような三角のボタンをクリックするとコードが実行されます。
+
+次のコードをコピペして実行し「Hello! JPAAWG」と表示されることを確認してください。
+
+```python
+print("Hello!", "JPAAWG")
+```
+
+新しくコードを入力する場合は、「+ Code」をクリックします。
+
+**これで準備は完了です。**
+
+当日のトレーニングセッションをお楽しみください。
+
+
+もっと深い興味があり、Google Colabを使わずにローカルのパソコンで実行したい場合は下記の英語のドキュメントの2章をご覧ください。
+
+---
+
 # Preparing Dev Environment for AI session
 
 ## 1. Google Colab (Mandatory) (Recommended)
@@ -20,14 +55,14 @@ Here are some of the benefits of using Google Colab:
 
 - **You need a Google account to use Google Colab. So please create a one if you don't have one.**
 - **Sign in to your Google account.**
-  
+
 1. Please visit:
 https://colab.research.google.com/
 
 2. Click, File -> New notebook
 3. By clicking + Code, you can add a new code cell
 4. To execute a code cell, click the play button on the left of the cell
-   - Try to execute following code cell. 
+   - Try to execute following code cell.
    - You can copy and paste the following code to the cell.
 
 ```python
