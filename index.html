@@ -11,9 +11,16 @@
         padding: 20px 20px 20px;
       }
 
-      h4 {
+      h1 {
         color: #333333;
-        font-size: 24px;
+        font-size: 32px;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      h3 {
+        color: #007bff;
+        font-size: 20px;
         margin-top: 20px;
       }
 
@@ -44,34 +51,69 @@
       a:hover {
         text-decoration: underline;
       }
+
+      .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        width: 300px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .card h4 {
+        color: #333333;
+        font-size: 24px;
+        margin-top: 10px;
+      }
+
+      .card p {
+        color: #555555;
+        font-size: 16px;
+        line-height: 1.5;
+      }
     </style>
   </head>
   <body>
     <h1>JPAAWG 6th General Meeting: ゼロから始めるAIハンズオン -「スパムフィルタ」と「メールの件名自動生成」</h1> 
-    <h3>概要</strong></h3>
-    <p> 「スパムフィルタ」と「メールの件名自動生成」を作ってみよう。
-        このハンズオンセッションでは、A1-3セッションで紹介するAIを利用した「スパムフィルタ」と「メールの件名自動生成」のエンジンを実際に作成します。
-        AIや仕組みについて説明したあと、ハンズオンの手順書を見ながらみなさんで手を動かしてエンジンを実際に構築していただきます。
-        AIについて全くわからなくても大丈夫です。
-        プログラミング言語はPythonを使用しますが、わからなくても問題ありません。
-        AIがどのように作られているのか、実際に体験して楽しんでみてください。
-    </p>    
-    <h3>ハンズオン資料</h3>
-    <ul>
-      <li><a href="README.md">事前準備</a></li>
-      <li><a href="title_generation_ja.html">AIによるメールの件名生成</a></li>
-      <li><a href="spam_classification_ja.html">基本的な機械学習テクニックによるSPAMフィルタリング</a> </li>
-    </ul>
-    <hr>
-    <h1>JPAAWG 6th General Meeting : Building a Spam Classifier with Machine Learning A Step-by-Step Workshop</h1>
-    <h3>Abstract</h3>
-    <p>In this hands-on session at the Email Solutions and Security Conference, we'll delve into the intricacies of crafting a spam classifier using machine learning. We'll start with Exploratory Data Analysis (EDA) to understand our dataset, followed by feature engineering to extract meaningful attributes. Two distinct models will be built: one utilizing numerical features and the other based on TF-IDF representation of emails. Participants will learn the nuances of each method and engage in a comparative analysis, evaluating their performance in spam detection. Join us to enhance your understanding of email security and the power of machine learning in combating spam.</p>
-    <h3>Docs for Handson</h3>
-    <ul>
-      <li><a href="README.md">Preparation</a></li>
-      <li><a href="title_generation_en.html">Generate Email Subject With AI</li>
-      <li><a href="spam_classification_en.html">SPAM Filtering with Basic Machine Learning Techniques</a></li>
-    </ul>
-
+    <div class="container">
+      <div class="card">
+        <h4>概要</h4>
+        <p>「スパムフィルタ」と「メールの件名自動生成」を作ってみよう。
+          このハンズオンセッションでは、A1-3セッションで紹介するAIを利用した「スパムフィルタ」と「メールの件名自動生成」のエンジンを実際に作成します。
+          AIや仕組みについて説明したあと、ハンズオンの手順書を見ながらみなさんで手を動かしてエンジンを実際に構築していただきます。
+          AIについて全くわからなくても大丈夫です。
+          プログラミング言語はPythonを使用しますが、わからなくても問題ありません。
+          AIがどのように作られているのか、実際に体験して楽しんでみてください。
+        </p>
+      </div>
+      <div class="card">
+        <h4>ハンズオン資料</h4>
+        <ul>
+          <li><a href="README.md">事前準備</a></li>
+          <li><a href="title_generation_ja.html">AIによるメールの件名生成</a></li>
+          <li><a href="spam_classification_ja.html">基本的な機械学習テクニックによるSPAMフィルタリング</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>JPAAWG 6th General Meeting : Building a Spam Classifier with Machine Learning A Step-by-Step Workshop</h4>
+        <p>In this hands-on session at the Email Solutions and Security Conference, we'll delve into the intricacies of crafting a spam classifier using machine learning. We'll start with Exploratory Data Analysis (EDA) to understand our dataset, followed by feature engineering to extract meaningful attributes. Two distinct models will be built: one utilizing numerical features and the other based on TF-IDF representation of emails. Participants will learn the nuances of each method and engage in a comparative analysis, evaluating their performance in spam detection. Join us to enhance your understanding of email security and the power of machine learning in combating spam.</p>
+      </div>
+      <div class="card">
+        <h4>Docs for Handson</h4>
+        <ul>
+          <li><a href="README.md">Preparation</a></li>
+          <li><a href="title_generation_en.html">Generate Email Subject With AI</a></li>
+          <li><a href="spam_classification_en.html">SPAM Filtering with Basic Machine Learning Techniques</a></li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
